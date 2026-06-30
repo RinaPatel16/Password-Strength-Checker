@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Password Strength Checker</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>Create Account</h2>
+
+<input type="text" placeholder="Username">
+
+<div class="password-box">
+<input type="password" id="password" placeholder="Enter Password">
+<span id="toggle">Show</span>
+</div>
+
+<div class="progress">
+<div id="bar"></div>
+</div>
+
+<p id="strengthText"><strong>Strength:</strong></p>
+
+<ul>
+<li id="length" class="invalid">Minimum 8 Characters</li>
+<li id="upper" class="invalid">Uppercase Letter</li>
+<li id="lower" class="invalid">Lowercase Letter</li>
+<li id="number" class="invalid">Number</li>
+<li id="special" class="invalid">Special Character</li>
+</ul>
+
+<button>Create Account</button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
