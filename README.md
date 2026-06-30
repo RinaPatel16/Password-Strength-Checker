@@ -55,6 +55,14 @@ Password-Strength-Checker/
 
 ---
 
+## 🌐 Project Live Location
+
+You can access the live version of this project here:
+
+🔗 **Password Strength Checker**  
+https://rinapatel16.github.io/Password-Strength-Checker/
+
+
 ## 🎯 Password Validation Rules
 
 The password is considered stronger when it contains:
